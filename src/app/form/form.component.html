@@ -1,0 +1,12 @@
+<form [formGroup]="form" >
+
+  <input type="text"  formControlName="name" >
+  <label *ngIf="form?.get('name')?.hasError('required')&&form.get('name')?.touched" [style.color]="'red'" >it required</label>
+  <input type="email" formControlName="email">
+  <label *ngIf="form?.get('email')?.hasError('required')&&form.get('email')?.touched" [style.color]="'red'" >it required</label>
+  <label *ngIf="form?.get('email')?.hasError('email')&&form.get('email')?.touched" [style.color]="'red'" >email format not correct</label>
+  <input type="password" formControlName="password">
+  <label *ngIf="form?.get('password')?.hasError('required')&&form.get('password')?.touched" [style.color]="'red'" >it required</label>
+  <label *ngIf="form?.get('password')?.hasError('min')&&form.get('password')?.touched" [style.color]="'red'" > min 8 caracters</label>
+<button type="submit" (click)="addUser()" > add</button>
+</form>

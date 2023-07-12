@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "name": "Do distinctio Magna",
+      "email": "titoquddrak@mailinator.com",
+      "id": 16
+    },
+    {
+      "name": "botainaaaa",
+      "email": "boa@eeeaaaa.com",
+      "id": 17
+    },
+    {
+      "name": "Dolor ut aliqua Del",
+      "email": "bahax@mailinator.cddom",
+      "id": 18
+    }
+  ],
+  "tahman": [
+    {
+      "id": 1,
+      "name": "hicham",
+      "email": "hicham@gmail.com",
+      "password": "00530593"
+    },
+    {
+      "name": "Do distinctio Magna",
+      "email": "titoqurak@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 16
+    },
+    {
+      "name": "botainaaaa",
+      "email": "boa@eeeaaaa.com",
+      "id": 17
+    }
+  ]
+}
